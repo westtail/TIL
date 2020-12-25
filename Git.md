@@ -100,6 +100,71 @@ git add ファイル名
 git commit -m "コミットメッセージ"
 ```
 
+#### git config
+* ユーザー情報やリモート先の情報などを設定できる
+* 以下のコマンドで設定を確認できる
+```
+git config --list
+```
+
+#### git log
+* コミットのログを確認できる
+* --oneline それぞれのコミットを一覧表示
+* --graph ブランチの流れを確認できる
+
+#### git diff
+* コミットと現在の状態の差分を見ることができる
+* コミット間の差分を見ることができる
+```
+git diff ハッシュ1 ハッシュ2
+```
+
+#### git remote
+ * リモートの情報を設定
+```
+登録
+git remote add リモートリポジトリ名 url 
+
+変更
+git remote set-url 名前 url
+```
+
+##### git push 
+* リモートリポジトリにマージする
+```
+git push リモートリポジトリ名 ブランチ名
+```
+
+#### git branch
+* ブランチに関するコマンド
+```
+git branch             # ブランチ一覧を表示
+git branch ブランチ名    # ブランチを作成
+git branch -D ブランチ名 # ブランチを削除
+```
+
+#### git checkout
+* ブランチの切り替え
+```
+git checkout ブランチ名
+
+git checkout -b ブランチ名
+```
+
+#### git rebase
+* コミットのログを変更することができる
+
+#### git fetch
+* 特定のブランチをローカルにコピー
+
+#### git merge
+* 特定のブランチの変更を取り込む
+
+#### git cherry-pick
+* 特定のコミットの差分を取り入れる
+
+#### git stash 
+* とりあえず一旦置いておくコマンド
 
 
 # 参考サイト
