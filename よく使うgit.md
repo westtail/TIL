@@ -47,3 +47,12 @@ http://www-creators.com/archives/1116
 git pull
 でブランチの環境も落ちてくる
 ```
+
+## gitメッセージの書き方
+https://qiita.com/itosho/items/9565c6ad2ffc24c09364
+
+以下の形式をメッセージに追加するとやりやすい
+* fix：バグ修正
+* add：新規（ファイル）機能追加
+* update：機能修正（バグではない）
+* remove：削除（ファイルs
