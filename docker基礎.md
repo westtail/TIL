@@ -85,7 +85,18 @@ RUN yum -y install httpd
 Dockerイメージが起動してから実行されるコマンド  
 イメージが出来上がってからのインストール以外のコマンドなど
 
+### VOLUME
+コンテナは削除されると中のデータもなくなってしまうので
+保存したいデータはvolumeに保存する
+https://qiita.com/namutaka/items/f6a574f75f0997a1bb1d#dockerfile%E3%81%A7%E3%81%AEvolume%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89
+
+## docker-compose
+"docker-compose.yml"ファイルに複数コンテナの構成情報を定義し、docker-composeコマンドで起動や停止などの管理
 ## 参考URL
+一番役に立った
+* https://qiita.com/gold-kou/items/44860fbda1a34a001fc1#docker-compose%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89
+
+その他
 * https://kitsune.blog/docker-summary
 * https://qiita.com/gold-kou/items/44860fbda1a34a001fc1
 * https://qiita.com/tanan/items/e79a5dc1b54ca830ac21
