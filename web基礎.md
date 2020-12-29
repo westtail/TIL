@@ -18,8 +18,15 @@
 ### ハイパーリンク
 * 別のwebページへ移動するリンクのこと
 
-### HTML (HyperText Markup Language)とは
+### HTML (HyperText Markup Language)
 * ハイパーテキストを記述するための言語
+
+### CSS（Cascading Style Sheets、カスケーディング・スタイル・シート）
+* ウェブページのスタイルを指定するための言語
+  * HTMLの文章などを見やすいスタイルに変更する
+
+### javascript
+* ウェブページにて複雑な機能をできるようにするプログラミング言語
 
 ### webブラウザ
 * ハイパーテキストを解釈して人間が読みやすい形にするためのプログラム
@@ -73,6 +80,19 @@
   * 統一インターフェース
     * 情報の操作(取得、作成、更新、削除)は全てHTTPメソッド(GET、POST、PUT、DELETE)を利用すること
 
+### クライアントとサーバー
+* クライアント
+  * 提供されたサービスを利用する側
+* サーバー
+  * ネットワーク上でサービスを提供する側
+  
+### プロトコル
+* 何かの動作の手順のこと
+* ネットワークに接続された機器同士が通信するときの予めに決めた共通の手順のこと
+
+### TCP/IP TCP「Transmission Control Protocol」とIP「Internet Protocol」
+* コンピュータネットワークやインターネットを動かしている通信技術を一式として総称したもの
+
 ### socket
 * プログラムとネットワークをつなげる接続口のこと
 * プログラムでネットワーク通信部分を担当する奴等
@@ -85,6 +105,20 @@
 * ソフトウェア同士のやり取りの橋渡しをする
 * ソフトウェアにAPIという外部とやりとりする窓口を作り、外部アプリとコミュニケーションや連携ができる状態
 
+### web API 
+* webアプリケーションの処理をネットワークで呼び出す
+
+### webアプリ
+* webブラウザをインターフェースとして入出力するアプリケーション
+
+### 永続化、データベース
+* アプリを動かす際にデータを保存する場所
+
+### ログイン
+* ユーザーがそのwebアプリを使うために行う処理
+
+### Cooki
+
 ## HTMLについて
 * headタグ
   * 通信に必要な内容
@@ -92,12 +126,11 @@
   * 文章などのデータの中身
 
 
-### webアプリ
-* webブラウザをインターフェースとして入出力するアプリケーション
-
 #### 参考URL
 * HTMLについて
   * http://www.htmq.com/htmlkihon/001.shtml
+* CSS
+  * http://www.htmq.com/csskihon/001.shtml
 * webサイトについて
   * https://www.axis-corp.com/quest/website-homepage-difference/
 * ユーザーインターフェース
@@ -126,4 +159,5 @@
 * RESTful
   * https://qiita.com/NagaokaKenichi/items/0647c30ef596cedf4bf2
   * https://blog.api.rakuten.net/ja/jp-restful-api/#:~:text=REpresentational%20State%20Transfer%E3%81%AE%E7%95%A5,%E3%81%AE%E3%81%93%E3%81%A8%E3%82%92%E6%8C%87%E3%81%97%E3%81%BE%E3%81%99%E3%80%82
-* 
+* TCP/IP
+  * https://eng-entrance.com/network-tcpip
