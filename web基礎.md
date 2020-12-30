@@ -92,6 +92,31 @@
 
 ### TCP/IP TCP「Transmission Control Protocol」とIP「Internet Protocol」
 * コンピュータネットワークやインターネットを動かしている通信技術を一式として総称したもの
+* ４つの階層(レイヤー)に分かれている  また、OSI参照モデルと呼ばれる7つの層に分かれている
+  * アクリケーション層 アプリケーションごとのやり取りを規定 HTTP SMTP FTP
+  * トランスポート層 データの分割や品質保証を規定 TCP UDP
+  * インターフェース層　ネットワーク間の通信を規定 IP ICMP
+  * ネットワークインターフェース層 ハードウェアに関する規定 イーサネット、Wi-fi
+
+### IPアドレス
+* インターネット上の住所のような物
+* インターネット上に接続された機器が持つナンバーのことで特定のコンピューターにアクセスできる
+
+### ポート番号
+* コンピューター内のプログラムを識別するための番号
+* コンピューターの通信に使用するプログラムを識別するための番号
+  * TCP 22 : SSH
+  * TCP 80 : HTTP  
+  * TCP 443 : HTTPS
+
+### ドメイン
+* IPアドレスを人がわかりやすい形にした物
+
+### DNS (Domain Name System)
+* ドメインをIPアドレスに変換する仕組み
+* DNSサーバーはドメインとIPアドレスを関連付ている
+* ドメイン名からDNSサーバーに検索することでIPアドレスを手に入れてアクセスする
+
 
 ### socket
 * プログラムとネットワークをつなげる接続口のこと
@@ -161,3 +186,9 @@
   * https://blog.api.rakuten.net/ja/jp-restful-api/#:~:text=REpresentational%20State%20Transfer%E3%81%AE%E7%95%A5,%E3%81%AE%E3%81%93%E3%81%A8%E3%82%92%E6%8C%87%E3%81%97%E3%81%BE%E3%81%99%E3%80%82
 * TCP/IP
   * https://eng-entrance.com/network-tcpip
+* IPアドレス
+  * https://www.kagoya.jp/howto/network/ipaddress/
+* ポート番号
+  * https://eng-entrance.com/network-port
+* DNS
+  * https://www.nic.ad.jp/ja/newsletter/No22/080.html
