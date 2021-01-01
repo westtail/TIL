@@ -68,3 +68,6 @@ database.ymlに書かれているパスワードを環境変数として設定�
 ## 参考URL
 
 https://qiita.com/mightysosuke/items/c15ecf25307bc93ccd60
+
+# 公式ドキュメント
+https://docs.docker.jp/compose/compose-file.html
