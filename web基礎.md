@@ -106,7 +106,7 @@
 * コンピューター内のプログラムを識別するための番号
 * コンピューターの通信に使用するプログラムを識別するための番号
   * TCP 22 : SSH
-  * TCP 80 : HTTP  
+  * TCP 80 : HTTP
   * TCP 443 : HTTPS
 
 ### ドメイン
@@ -150,6 +150,8 @@
 * bodyタグ
   * 文章などのデータの中身
 
+### デーモン
+* 待機している常駐プログラムのUNIX系OSにおける呼び名
 
 #### 参考URL
 * HTMLについて
@@ -192,3 +194,5 @@
   * https://eng-entrance.com/network-port
 * DNS
   * https://www.nic.ad.jp/ja/newsletter/No22/080.html
+* デーモン
+  * https://wa3.i-3-i.info/word11000.html
