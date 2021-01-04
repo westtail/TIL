@@ -8,7 +8,7 @@
 ### webサイト
 * 一つのドメインにある複数のwebページの集まり
 
-### webページ 
+### webページ
 * インターネットの世界で見られる文書ファイルのこと
   * webページはハイパーテキストを用いて構成されている
 
@@ -47,9 +47,9 @@
 * インターネット上にあるホームページやファイルの位置や情報を示すもの
   * URLは「IPアドレス」を人間が読みやすいように変換したもの
   * 「どのやり取りの手順」「どのwebサーバー」「何のコンテンツ」を取りに行くかの情報が載っている
-  * http://www.test.jp/index.html を例えで解析すると  
+  * http://www.test.jp/index.html を例えで解析すると
     * 1 http://  HTTPの方法で
-    * 2 www.test.jp  どのwebサーバーにアクセスするか 
+    * 2 www.test.jp  どのwebサーバーにアクセスするか
     * 3 index.html  どのコンテンツか
 ### 静的ページ
 * いつ誰が見ても同じ内容が表示される、表示される内容が変わらないホームページ（の中の1ページ）のこと
@@ -80,12 +80,19 @@
   * 統一インターフェース
     * 情報の操作(取得、作成、更新、削除)は全てHTTPメソッド(GET、POST、PUT、DELETE)を利用すること
 
+### REST API
+* URIはリソースを表現しなければならない（リソース名は動詞ではなく、名詞を使用）
+* リソースの操作は、HTTPメソッド（GET、POST、PUT、DELETEなど）で表現する
+  * POST	対応するURIをリクエストし、リソースを作成する
+  * GET	リソースを照会して、当該ドキュメントの詳細情報を取得する
+  * PUT	当該リソースを変更する
+  * DELETE	リソースを削除する
+
 ### クライアントとサーバー
 * クライアント
   * 提供されたサービスを利用する側
 * サーバー
   * ネットワーク上でサービスを提供する側
-  
 ### プロトコル
 * 何かの動作の手順のこと
 * ネットワークに接続された機器同士が通信するときの予めに決めた共通の手順のこと
@@ -130,7 +137,7 @@
 * ソフトウェア同士のやり取りの橋渡しをする
 * ソフトウェアにAPIという外部とやりとりする窓口を作り、外部アプリとコミュニケーションや連携ができる状態
 
-### web API 
+### web API
 * webアプリケーションの処理をネットワークで呼び出す
 
 ### webアプリ
@@ -178,7 +185,7 @@
 * 動的ページ
   * https://wa3.i-3-i.info/word11861.html
 * ソケット
-  * https://wa3.i-3-i.info/word168.html 
+  * https://wa3.i-3-i.info/word168.html
 * CGI
   * http://www.tohoho-web.com/wwwcgi1.htm
 * webサーバー　アプリケーションサーバーについて
@@ -186,6 +193,7 @@
 * RESTful
   * https://qiita.com/NagaokaKenichi/items/0647c30ef596cedf4bf2
   * https://blog.api.rakuten.net/ja/jp-restful-api/#:~:text=REpresentational%20State%20Transfer%E3%81%AE%E7%95%A5,%E3%81%AE%E3%81%93%E3%81%A8%E3%82%92%E6%8C%87%E3%81%97%E3%81%BE%E3%81%99%E3%80%82
+  * https://meetup-jp.toast.com/931
 * TCP/IP
   * https://eng-entrance.com/network-tcpip
 * IPアドレス
