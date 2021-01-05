@@ -97,7 +97,7 @@
 
 ### SSL（Secure Sockets Layer）/TLS（Transport Layer Security）
 * SSL(Secure Socket Layer)は、インターネット上でやりとりされるデータの「盗聴」「改ざん」「なりすまし」を防止するための暗号化プロトコル(通信方法)
-TLSはSSLの最新バージョン
+* TLSはSSLの最新バージョン
 
 ### URL Uniform Resource Locator（ユニフォームリソースロケータ）
 * インターネット上にあるホームページやファイルの位置や情報を示すもの
