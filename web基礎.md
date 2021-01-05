@@ -241,6 +241,10 @@
 * HTTP
   * https://cybersecurity-jp.com/security-measures/25772
   * http://www.tohoho-web.com/ex/http.htm
+* HTTPメソッド
+  * https://tsuyopon.xyz/2019/01/31/understand-4-http-methods/
+* SSL/TLS
+  * https://www.idcf.jp/rentalserver/aossl/basic/ssl-tls/
 * URL
   * https://ferret-plus.com/8736
 * 静的ページ
