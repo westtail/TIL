@@ -42,6 +42,27 @@
 
 ### HTTP (Hyper Text Transfer Protocol)
 * クライアントとwebサーバーとのHTMLでの通信のやり取りの手順のこと
+* HTTPリクエスト
+   * webブラウザからの要求
+1. リクエスト行 
+   * webサーバーに対するどのような処理をして欲しいかのリクエスト部分
+   * メソッド パス名 HTTP/バージョン
+2. ヘッダー
+   * webブラウザの情報
+3. メッセージボディ
+   * webサーバーに送るデータなどが入る
+* HTTPレスポンス
+   * webサーバーからの応答
+1. レスポンス行
+   * webブラウザにwebサーバーでの処理の結果を伝える
+   * HTTP/バージョン ステータス番号 補足メッセージ
+2. ヘッダー
+   * webサーバーの情報
+3. メッセージボディ
+   * HTMLや画像などデータを格納する場所
+
+### HTTPメソッド
+* クライアントがwebサーバーに要求する処理の種類
 
 ### URL Uniform Resource Locator（ユニフォームリソースロケータ）
 * インターネット上にあるホームページやファイルの位置や情報を示すもの
@@ -178,6 +199,7 @@
   * https://www.no1web.jp/blog/15004/
 * HTTP
   * https://cybersecurity-jp.com/security-measures/25772
+  * http://www.tohoho-web.com/ex/http.htm
 * URL
   * https://ferret-plus.com/8736
 * 静的ページ
