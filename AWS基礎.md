@@ -53,4 +53,7 @@
   * SaaS PaaS IaaSの全てを提供するサービス
 ### 参考URL
 * EC2 https://recipe.kc-cloud.jp/archives/7413
+* S3 https://www.wafcharm.com/blog/s3-for-beginners/
+* VPC https://techplay.jp/column/541
+* RDS https://business.ntt-east.co.jp/content/cloudsolution/column-23.html
 * SaaS PaaS Iaas https://data.wingarc.com/saas-paas-iaas-11087
