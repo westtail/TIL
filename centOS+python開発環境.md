@@ -72,3 +72,9 @@ CMD ["/bin/bash"]
   * https://stackoverflow.com/questions/51479458/getting-error-could-not-import-pil-image-the-use-of-array-to-img-requires-pi
 *  OS確認 
   * https://webkaru.net/linux/centos-version/
+* インストールエラ-
+  * https://zenn.dev/gz/articles/ad65e162d13cfc1baae8
+  * https://stackoverflow.com/questions/65308694/error-importing-librosa-for-tensorflow-sndfile-library-not-found
+  * https://anton0825.hatenablog.com/entry/2017/01/09/000000
+  * https://qiita.com/nikola-f/items/798547356dcc47239702
+  * https://ja.stackoverflow.com/questions/67674/ffmpeg%E3%82%92%E6%89%8B%E5%8B%95%E3%81%A7ubuntu18-04%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%9F%E3%81%84
