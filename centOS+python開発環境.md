@@ -6,7 +6,12 @@ FROM centos:centos7
 # 各パッケージをインストール
 RUN yum -y update
 RUN yum -y groupinstall "Development Tools"
-RUN yum -y install \ 
+RUN yum -y install \
+           ffmpeg\
+           mesa-libGL.x86_64\
+           libsndfile \
+           x\
+           xz-devel\
            kernel-devel \
            kernel-headers \
            gcc-c++ \
@@ -36,7 +41,10 @@ RUN yum -y install \
            git \
            gdbm-devel \
            python-devel 
- 
+
+RUN wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
+RUN tar Jxvf ./ffmpeg-release-amd64-static.tar.xz
+RUN  cp ./ffmpeg-4.3.1-amd64-static/ffmpeg /usr/local/bin/
 # Python3.6.0をダウンロード
 WORKDIR /root
 RUN wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz
