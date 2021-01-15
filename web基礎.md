@@ -163,6 +163,9 @@
   * PUT	当該リソースを変更する
   * DELETE	リソースを削除する
 
+### CRUD
+* システムに必要な4つの主要機能である「Create（生成）」「Read（読み取り）」「Update（更新）」「Delete（削除）」の頭文字を並べた用語
+
 ### クライアントとサーバー
 * クライアント
   * 提供されたサービスを利用する側
@@ -280,6 +283,8 @@
   * https://qiita.com/NagaokaKenichi/items/0647c30ef596cedf4bf2
   * https://blog.api.rakuten.net/ja/jp-restful-api/#:~:text=REpresentational%20State%20Transfer%E3%81%AE%E7%95%A5,%E3%81%AE%E3%81%93%E3%81%A8%E3%82%92%E6%8C%87%E3%81%97%E3%81%BE%E3%81%99%E3%80%82
   * https://meetup-jp.toast.com/931
+* CRUD
+  * https://wa3.i-3-i.info/word123.htm
 * TCP/IP
   * https://eng-entrance.com/network-tcpip
 * IPアドレス
