@@ -254,12 +254,18 @@
 * PNG
   * 高画質で可逆圧縮の画像
 
+### XML (Extensible Markup Language)
+* 拡張可能なマークアップ言語
+* データの意味に合わせて要素名を自由に定義し、データを明確に目立たせることができる
+
 ### デーモン
 * 待機している常駐プログラムのUNIX系OSにおける呼び名
 
 #### 参考URL
 * HTMLについて
   * http://www.htmq.com/htmlkihon/001.shtml
+* XML
+  * https://hnavi.co.jp/knowledge/blog/xml/#:~:text=XML%E3%81%AF%E3%80%81%E6%96%87%E7%AB%A0%E3%81%AE%E8%A6%8B%E3%81%9F%E7%9B%AE,%E3%82%A2%E3%83%83%E3%83%97%E8%A8%80%E8%AA%9E%E3%81%AE%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7%E3%81%99%E3%80%82
 * CSS
   * http://www.htmq.com/csskihon/001.shtml
 * webサイトについて
