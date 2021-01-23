@@ -390,3 +390,7 @@
   * https://wa3.i-3-i.info/word11000.html
 * Cookie
   * https://digitalidentity.co.jp/blog/creative/what-is-cookie.html
+* webアプリケーション
+  * https://qiita.com/mk185/items/e914683410fd4ecaf0af#:~:text=Web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE3%E5%B1%A4,%E6%A7%8B%E9%80%A0%E3%81%A8%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%80%82&text=%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%B1%A4%E3%81%AF%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC,%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC)%E3%81%8C%E5%BD%B9%E5%89%B2%E3%82%92%E6%8B%85%E3%81%86%E3%80%82
+* MVCモデル
+  * https://qiita.com/s_emoto/items/975cc38a3e0de462966a
