@@ -258,6 +258,38 @@
 * 拡張可能なマークアップ言語
 * データの意味に合わせて要素名を自由に定義し、データを明確に目立たせることができる
 
+### CSSについて
+* HTMLの表示方法の記述を行える
+* 複数のCSSを利用することができる
+
+### スクリプト言語
+* サーバーサイドスクリプト
+  * Perl,Python,PHP,Rubyがよく使われている
+* クライアントサイドスクリプト
+  * javascriptを標準言語としてECMAScriptとして指定
+
+### DOM(Document Object Model)
+* プログラムとHTMLやXMLをつなげる部分 ウェブページとスクリプトやプログラミング言語を接続するもの
+* HTMLなどの対象となる文章の各要素を抽出しそれを階層構造として扱う
+* HTMLの文章構造の木構造となっている→DOMツリー
+* 木構造の枝葉の部分を
+
+### JSON(JavaScript Object Notation)
+* データ記述言語の一種、データを木構造で表現
+* javascriptでメインで利用するためweb上でのやり取りによく使われる
+* 共通データ定義言語としてXMLが利用されてきましたが、現在では、簡易的なJSONが利用されるケースが多い
+
+### フィード
+* webサイトなどの更新履歴を配信するためのファイル
+* フィードを取り込むだけでwebサイトのどこを更新されたかすることができる
+* RSSとAtomが利用される
+* フィードリーダーはフィードをを取得して管理するためのソフトウェア
+* ポットキャストはRSSを通してweb上に動画や音楽を配信する手法
+
+### マイクロフォーマット
+* HTMLなどで記述されたwebページ内で意味を表現する記述を埋め込むための書式
+* 埋め込まれた意味をセマンティックWEBで利用する
+
 ### デーモン
 * 待機している常駐プログラムのUNIX系OSにおける呼び名
 
@@ -268,6 +300,13 @@
   * https://hnavi.co.jp/knowledge/blog/xml/#:~:text=XML%E3%81%AF%E3%80%81%E6%96%87%E7%AB%A0%E3%81%AE%E8%A6%8B%E3%81%9F%E7%9B%AE,%E3%82%A2%E3%83%83%E3%83%97%E8%A8%80%E8%AA%9E%E3%81%AE%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7%E3%81%99%E3%80%82
 * CSS
   * http://www.htmq.com/csskihon/001.shtml
+* ECMAScript
+  * https://qiita.com/yukibe/items/acd0bafcf2a10c99d0f6
+* DOM
+  * https://developer.mozilla.org/ja/docs/Web/API/Document_Object_Model
+  * https://eng-entrance.com/what-is-dom
+* JSON
+  * http://www.tohoho-web.com/ex/json.html
 * webサイトについて
   * https://www.axis-corp.com/quest/website-homepage-difference/
 * ユーザーインターフェース
@@ -312,6 +351,10 @@
   * https://eng-entrance.com/network-port
 * DNS
   * https://www.nic.ad.jp/ja/newsletter/No22/080.html
+* フィード
+  * https://wa3.i-3-i.info/word11641.html
+* マイクロフォーマット
+  * https://developer.mozilla.org/ja/docs/Web/HTML/microformats
 * デーモン
   * https://wa3.i-3-i.info/word11000.html
 * Cookie
