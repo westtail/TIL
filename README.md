@@ -9,3 +9,8 @@
 
 ### 参考URL
 * https://qiita.com/nemui_/items/239335b4ed0c3c797add
+
+
+## 今後やりたいこと
+* Mac環境でpyOCRで画像データをテキスト化する
+  * https://qiita.com/seigot/items/7d424000c8d35e5146e4
