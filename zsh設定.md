@@ -3,3 +3,7 @@
   * https://www.yokoweb.net/2019/10/12/macos-catalina-zsh-profile/
 * git-promptの設定
   * https://qiita.com/mikan3rd/items/d41a8ca26523f950ea9d
+* zshの大まかな説明を確認
+  * https://qiita.com/y-hirako0928/items/30b6f8d0162dbb8ca486 
+* zshの大部分の設定を以下のサイトの通りに行った
+  * https://dev.macha795.com/zsh-prompt-customize/ 
