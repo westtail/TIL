@@ -347,6 +347,19 @@
     * データベースを複数用意して、メインの更新してサブを任意のタイミングで更新を行う
   * シェアードディスク 
     * 共有用のデータベースを用意して複数のDBサーバーから更新を行う
+### キャッシュサーバー
+* キャッシュ
+  * 「リクエストに対するレスポンスの記憶」
+  * 文章や画像などのコンテンツのキャッシュをコンテンツキャッシュ
+  * DBMSのデータ検索要求のキャッシュをクエリキャッシュ
+* CDN(Content Delivery Network)
+  * 世界各地に設定されたコンテンツキャッシュサーバーで構成されるネットワーク
+  * 予めデータを取得しておくことで近くのサーバーとして対応できるようにする
+### Ajax (Asynchronous JavaScript + XML)
+* 同期通信
+  * １リクエストごとにHTMLを返し、コンテンツの更新を同期で行う
+* javascriptがアプリとのデータのやり取りを行い、最低限必要なデータのやり取りを行う
+* 非同期処理として同期的に処理を行わないのでレスポンスなどが早くなる
 #### 参考URL
 * HTMLについて
   * http://www.htmq.com/htmlkihon/001.shtml
@@ -419,3 +432,8 @@
   * https://qiita.com/s_emoto/items/975cc38a3e0de462966a
 * DBMS
   * https://rfs.jp/sb/sql/s01/01-19.html 
+* キャッシュサーバー
+  * https://www.kagoya.jp/howto/network/cdn/
+* Ajax
+  * https://qiita.com/hisamura333/items/e3ea6ae549eb09b7efb9
+  * https://www.codegrid.net/articles/2014-ajax-1/#:~:text=Ajax%E3%81%A8%E3%81%AF%E3%80%81Asynchronous%20JavaScript,%E3%81%99%E3%82%8B%E9%80%9A%E4%BF%A1%E3%81%AE%E3%81%93%E3%81%A8%E3%81%A7%E3%81%99%E3%80%82 
