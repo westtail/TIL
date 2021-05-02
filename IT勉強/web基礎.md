@@ -360,6 +360,55 @@
   * １リクエストごとにHTMLを返し、コンテンツの更新を同期で行う
 * javascriptがアプリとのデータのやり取りを行い、最低限必要なデータのやり取りを行う
 * 非同期処理として同期的に処理を行わないのでレスポンスなどが早くなる
+### webAPI (Application Programming Interface)
+* web機能を利用してAPIを利用する仕組み
+* API
+  * プログラムからアプリケーションを操作する仕組み 
+### マッシュアップ
+* WEBAPIを複数利用して新しいサービスを作成する方法
+* APIが利用不可になれば代案をださなければならいことやあくまでAPIを利用していることを忘れてはいけない
+### CGI（Common Gateway Interface）
+* WEBサーバーがクライアントからのリクエストにサーバーサイドスクリプトを起動する仕組み
+* リクエストのURLの内容次第でCGIプログラムを起動しレスポンスを返す
+### サーバー間の連携
+* WEBサーバーからAPサーバーとDBサーバーと連携してプログラムを動かすことが多い
+* サーバー間の連携はポート番号とIPアドレスを利用する。プロトコルはHTTP意外にもある
+### WEBシステムのセキュリティ
+* 情報セキュリティ
+  * 機密性、完全性、可用性の情報セキュリティの三要素
+  * 機密性
+    * 権限がある人のみアクセスできる状態、関係ない人に情報を見せない
+  * 完全性
+    * 情報を破壊、改善、消去されない状態にする
+  * 可用性
+    *  必要な時にいつでも情報にアクセスできるようにする
+  * 逆に脅威になるのが、リスク、脅威、脆弱性の三つ
+  * リスク
+    * セキュリティが維持できず何にかの損失が発生する可能性 
+  * 脅威
+    * リクスを実兼させる要因
+  * 脆弱性
+    * 脅威に対する弱み
+### パスワードクラッキング、Dos攻撃
+* パスワードクラキング
+  * ユーザーのID、パスワードを抜き出そうとする攻撃
+  * 辞書攻撃、ブルートフォース攻撃 
+* Dos攻撃 (Denial of Service)
+  * 短期間にサーバーが対応できない大量のアクセスを仕掛け、サービス停止に追い込む攻撃
+  * SYN Flood攻撃、F5攻撃
+### セッションハイジャック、ディレクトリトラバーサル
+* セッションハイジャック
+  * CookieやセッションIDを取得することでログインユーザーとして入り、個人情報を取得する攻撃 
+* ディレクトリトラバーサル
+  * WEBシステムで公開していないディレクトリにアクセスして不正ログインなどする攻撃
+### クロスサイトスクリプティング、クロスサイトリクエストフォージェリ、SQLインジェクション
+* クロスサイトスクリプティング
+  * 脆弱性がある掲示板型などのwebサイトに罠を仕掛け、サイト訪問者の個人情報を盗む攻撃
+  * 偽の攻撃用サイトに訪れさせて、ユーザーの情報を盗む
+* クロスサイトリクエストフォージェリ
+  * ログインしたユーザーに対して攻撃用サイトをアクセスさせてサーバに攻撃したり、情報を盗む攻撃
+* SQLインジェクション
+  * DBサーバーに意図しないリクエスト文を混ぜ込むことで、DBサーバーに攻撃する手法
 #### 参考URL
 * HTMLについて
   * http://www.htmq.com/htmlkihon/001.shtml
@@ -437,3 +486,21 @@
 * Ajax
   * https://qiita.com/hisamura333/items/e3ea6ae549eb09b7efb9
   * https://www.codegrid.net/articles/2014-ajax-1/#:~:text=Ajax%E3%81%A8%E3%81%AF%E3%80%81Asynchronous%20JavaScript,%E3%81%99%E3%82%8B%E9%80%9A%E4%BF%A1%E3%81%AE%E3%81%93%E3%81%A8%E3%81%A7%E3%81%99%E3%80%82 
+* WEBAPI
+  * https://developer.mozilla.org/ja/docs/Learn/JavaScript/Client-side_web_APIs/Introduction 
+* CGI
+  * https://www.infraexpert.com/study/tcpip16.5.html#:~:text=CGI%EF%BC%88Common%20Gateway%20Interface%EF%BC%89%E3%81%AF,%E3%82%8B%20%E4%BB%95%E7%B5%84%E3%81%BF%E3%81%AE%E3%81%93%E3%81%A8%E3%81%A7%E3%81%99%E3%80%82
+* パスワードクラッキング
+  * https://it-trend.jp/onetime_password/article/cyber_attack_series2
+* Dos攻撃
+  * https://www.shadan-kun.com/blog/measure/2160/
+* セッションハイジャック
+  * https://cybersecurity-jp.com/security-measures/18583#:~:text=%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%8F%E3%82%A4%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF%E3%81%A8%E3%81%AF%E3%80%81%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BC%E9%80%9A%E4%BF%A1%E3%81%A7%E3%82%8A%E3%82%88%E3%81%86,%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%82%92%E3%81%99%E3%82%8B%E8%A1%8C%E7%82%BA%E3%81%A7%E3%81%99%E3%80%82
+* ディレクトリトラバーサル
+  * https://www.fenet.jp/infla/column/server/%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E3%83%88%E3%83%A9%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AB%E3%81%A8%E3%81%AF%EF%BC%9F%E5%AF%BE%E7%AD%96%E3%81%AE%E6%96%B9%E6%B3%957%E9%81%B8%E3%81%A8/#:~:text=%2Fetc%2Fpasswd%E2%80%9D%E2%80%9D%E3%80%8D,%E3%81%A6%E8%A1%A8%E7%A4%BA%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82
+* クロスサイトスクリプティング（XSS）
+  * https://www.kagoya.jp/howto/network/xss/#:~:text=%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%EF%BC%88XSS%EF%BC%89%E3%81%A8%E3%81%AF%E3%80%81%E6%94%BB%E6%92%83%E5%AF%BE%E8%B1%A1%E3%81%AE,%E8%A2%AB%E5%AE%B3%E3%82%92%E3%82%82%E3%81%9F%E3%82%89%E3%81%99%E6%94%BB%E6%92%83%E3%81%A7%E3%81%99%E3%80%82
+* クロスサイトリクエストフォージェリ（CSRF）
+  * https://www.trendmicro.com/ja_jp/security-intelligence/research-reports/threat-solution/csrf.html#:~:text=%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%AA%EF%BC%88CSRF%EF%BC%89%E3%81%A8%E3%81%AF%E3%80%81Web,%E5%87%A6%E7%90%86%E3%81%97%E3%81%A6%E3%81%97%E3%81%BE%E3%81%84%E3%81%BE%E3%81%99%E3%80%82
+* SQLインジェクション
+  * https://www.kagoya.jp/howto/network/sql-injection/
