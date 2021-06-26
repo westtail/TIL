@@ -101,3 +101,6 @@ https://qiita.com/itosho/items/9565c6ad2ffc24c09364
 
 * tigについて
 * https://qiita.com/YusukeHosonuma/items/d81397ab70a8c26a2902
+
+* gitの理解
+* https://www.kaitoy.xyz/2015/12/27/git-repository/
