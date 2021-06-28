@@ -25,3 +25,7 @@ Results logged to /tmp/python-build.20210628152408.14318.log
 CFLAGS="-I$(brew --prefix openssl)/include -I$(brew --prefix bzip2)/include -I$(brew --prefix readline)/include -I$(xcrun --show-sdk-path)/usr/include" LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix readline)/lib -L$(brew --prefix zlib)/lib -L$(brew --prefix bzip2)/lib" pyenv install --patch バージョン < <(curl -sSL https://github.com/python/cpython/commit/8ea6353.patch\?full_index\=1)
 ```
 * https://qiita.com/Butterthon/items/e7d1f379c828b41f3e19
+
+## pythochの設定
+* https://pytorch.org/get-started/previous-versions/
+* https://qiita.com/berry-clione/items/2371faa063ce5e4f4b12
